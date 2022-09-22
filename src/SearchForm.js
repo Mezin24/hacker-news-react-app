@@ -14,7 +14,7 @@ const SearchForm = () => {
   }, [inputValue]);
 
   return (
-    <form className='search-form' onClick={(e) => e.preventDefault()}>
+    <form className='search-form' onSubmit={(e) => e.preventDefault()}>
       <h2>search hacker news</h2>
       <input
         type='text'
